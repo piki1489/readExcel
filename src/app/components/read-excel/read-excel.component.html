@@ -1,0 +1,18 @@
+<!-- tareas.component.html -->
+<div class="contenedor">
+  <h2>📄 Cargar archivo Excel</h2>
+
+  <label class="input-label" for="excelFile">Selecciona un archivo .xlsx o .xls:</label>
+  <input
+    class="input-file"
+    type="file"
+    id="excelFile"
+    (change)="onFileChange($event)"
+    accept=".xlsx,.xls"
+  />
+
+  <div class="json-output" *ngIf="jsonData">
+    <h3>📊 Resultado en JSON:</h3>
+    <pre>{{ jsonData | json }}</pre>
+  </div>
+</div>

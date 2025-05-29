@@ -1,0 +1,47 @@
+/* styles.css o tareas.component.css */
+
+.contenedor {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h3 {
+  color: #007efc;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input-file {
+  padding: 0.6rem;
+  border: 2px dashed #007bff;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.input-file:hover {
+  background-color: #e7f3ff;
+}
+
+.json-output {
+  margin-top: 2rem;
+  background-color: #282c34;
+  color: #dcdcdc;
+  padding: 1rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  font-family: monospace;
+}
